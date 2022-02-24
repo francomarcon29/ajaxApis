@@ -1,0 +1,441 @@
+* :not(pre) {
+    font-family: 'Poppins', sans-serif;
+    font-variant: normal;
+}
+
+body {
+    background-color: rgb(220, 220, 220);
+    margin: auto;
+    overflow-x: hidden;
+}
+
+footer {
+    background-color: black;
+}
+
+a:visited,
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar {
+    width: 100%;
+    height: 100%;
+    margin-top: 0px;
+    background-color: black;
+}
+
+.navbar-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-right: 100px;
+}
+
+.navbar-logo {
+    margin: auto 0;
+    width: 10%;
+    flex-shrink: 10;
+    margin-right: 100px;
+}
+
+.navbar-item {
+    align-self: center;
+    text-align: center;
+    margin-right: 80px;
+    width: 200px;
+}
+
+.navbar-item>.button-nav {
+    background-color: #fbcc15;
+    width: 100%;
+    border: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 15px 32px;
+}
+
+.button-nav>a {
+    display: block;
+    color: black;
+}
+
+.button-nav:hover {
+    box-shadow: 0 12px 16px 0 rgba(214, 198, 198, 0.24), 0 17px 50px 0 rgba(214, 198, 198, 0.24);
+}
+
+.banner {
+    background-image: url(https://media.istockphoto.com/photos/hand-holding-mobile-phone-on-colorful-yellow-banner-background-picture-id1191133276?k=20&m=1191133276&s=170667a&w=0&h=1QFLMg3dXsfePvv5ccCF4935kN0JTW0b7QA7tUCIBdA=);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100%;
+}
+
+.banner-text {
+    padding: 50px;
+}
+
+.container {
+    margin: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+#main_table {
+    width: 100%;
+}
+
+#slogan {
+    text-align: left;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+pre {
+    font: bold 1em "Courier New", monospace;
+}
+
+#test {
+    width: 100%;
+}
+
+.specs_info {
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+.specs_title {
+    align-self: center;
+    text-align: center;
+    width: 10%;
+    padding: 30px;
+    flex-shrink: 10;
+}
+
+.item_specs {
+    width: 20%;
+    padding: 20px;
+    align-self: center;
+}
+
+#footer_box a:active {
+    color: grey;
+}
+
+h1 {
+    color: black;
+    margin-top: 0px;
+    text-align: left;
+    font-size: 70px;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+h3 {
+    font-size: 22px;
+}
+
+figcaption {
+    font-style: italic;
+}
+
+.models {
+    text-align: center;
+    margin: 0 auto;
+    background: white;
+    caption-side: top;
+    border-collapse: collapse;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    border-spacing: 0px;
+}
+
+.models td {
+    padding: 5px;
+    border: 1px solid black;
+}
+
+.models tr>td:first-child {
+    border-left: none;
+}
+
+.models tr>td:last-child {
+    border-right: none;
+}
+
+.models tr:last-child>td {
+    padding: 10px;
+}
+
+.models th {
+    padding: 10px;
+}
+
+.submit-row>td {
+    border: none;
+
+}
+
+.specs_info>li>ol>li::marker {
+    font-weight: bold;
+}
+
+.specs_info li {
+    list-style-position: outside;
+    margin-top: 5px;
+}
+
+.list-google {
+    list-style-image: url('https://i.imgur.com/6CFzMTs.png');
+}
+
+.list-apple {
+    list-style-image: url('https://i.imgur.com/wPJ2ttr.png');
+}
+
+.list-samsung {
+    list-style-image: url('https://i.imgur.com/we3Oyvs.png');
+}
+
+.camera-specs ol {
+    list-style: decimal;
+}
+
+.item_specs>ul>li>ol {
+    list-style-image: none;
+    list-style-type: decimal;
+}
+
+#s21-img {
+    margin-top: 5px;
+    margin-left: 6px;
+    margin-right: 20px;
+    float: right;
+}
+
+caption {
+    margin-bottom: 5px;
+}
+
+.model-submit {
+    margin: 5px 0;
+    padding: 5px;
+}
+
+.email {
+    text-transform: lowercase;
+}
+
+input[type=text],
+input[type=number] {
+    width: 160px;
+}
+
+input[type=text]:focus,
+input[type=number]:focus {
+    background: lightblue;
+}
+
+.reviews {
+    columns: 2;
+    /* ask TA what this does */
+    orphans: 2;
+    widows: 2;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.reviews>div {
+    width: 30%;
+    text-align: center;
+    padding: 15px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.review>p {
+    text-align: start;
+    text-indent: 1em;
+}
+
+em {
+    text-decoration: underline;
+}
+
+.team-figure {
+    margin: 0px;
+    margin-right: 50px;
+    width: 200px;
+    text-align: center;
+}
+
+.team-figure>img {
+    height: 200px;
+    border-radius: 100px;
+}
+
+.team {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer_box {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer_box>div {
+    margin: 20px;
+    width: 30%;
+    color: white;
+}
+
+.phone-img {
+    width: 140px;
+    vertical-align: middle;
+}
+
+.maps {
+    width: 200px;
+    height: 100px;
+    border: 0;
+}
+
+@media print {
+    section {
+        page-break-before: always;
+    }
+    footer,
+    .banner {
+        page-break-after: always;
+    }
+}
+
+@media only screen and (max-width: 1150px) {
+    .container {
+        margin: 20px;
+    }
+
+    .logo {
+        width: 60px;
+        height: 60px;
+    }
+
+    .navbar-logo {
+        margin-left: -30px;
+        width: 100%;
+    }
+
+    .navbar {
+        height: 100%;
+    }
+
+    .navbar-boxes {
+        flex-direction: column;
+        margin: 0 auto;
+        width: 100vw;
+    }
+
+
+
+    .navbar-item {
+        width: calc(100% - 50px);
+    }
+
+    .navbar-item > .button-nav {
+        padding: 10px 0px;
+        margin-bottom: 20px;
+    }
+
+
+    .banner-text {
+        padding: 20px;
+    }
+
+    pre {
+        font: bold 8px "Courier New", monospace;
+    }
+
+    .models-wrapper {
+        width: 100%;
+        overflow: scroll;
+    }
+    
+    .phone-img {
+        width: 80px;
+    }
+
+    #s21-img {
+        margin-top: 5px;
+        margin-left: 6px;
+        margin-right: 20px;
+        float: unset;
+    }
+
+    .models input[type="text"], .models input[type="number"] {
+        width: 100px;
+    }
+
+    .models tr:last-child>td {
+        padding: 2px;
+    }
+
+    .specs_title {
+        width: 100%;
+        padding: 5px;
+    }
+
+    .item_specs {
+        width: 100%;
+        padding: 5px 20px;
+    }
+
+    .specs_info {
+        margin-bottom: 20px;
+    }
+
+    .reviews > div {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .team-figure {
+        width: 200px;
+        margin-bottom: 20px;
+    }
+
+    .footer-item {
+        width: 100%;
+    }
+
+    .footer_box > div {
+        width: 100%;
+    }
+
+    /* TODO: make table larger on tablet */
+}
